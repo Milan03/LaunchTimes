@@ -19,6 +19,8 @@ public:
 		process_ptr ptr( prc );
 		_vecProcesses.push_back( ptr );
 	}
+
+	size_t getVecSize() { return _vecProcesses.size(); }
 	std::vector<process_ptr> getProcesses() { return _vecProcesses; }
 };
 

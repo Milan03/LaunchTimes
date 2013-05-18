@@ -18,6 +18,9 @@
     <ClCompile Include="LaunchTimesMain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ut_LaunchTimes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Process.h">

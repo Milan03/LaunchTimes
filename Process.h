@@ -14,6 +14,10 @@ public:
 	Process ( int lnchGrp, std::string prgName, std::string cmdPrmtrs ) : _launchGroup( lnchGrp ), _programName( prgName ), _cmdLnPrmtrs( cmdPrmtrs ) {}
 	virtual ~Process() {}
 
+	int getLaunchGroup() { return _launchGroup; }
+	std::string getProgramName() { return _programName; }
+	std::string getCmdLnPars() { return _cmdLnPrmtrs; }
+
 	void setLaunchGroup( int num ) {
 		_launchGroup = num;
 	}

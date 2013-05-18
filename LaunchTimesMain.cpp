@@ -74,22 +74,22 @@ ProcessManager LoadFile( string theFile ) {
 	fileStream.close();
 }
 
-int main( int argc, char* argv[] ) {
-	// Must be 2 command line arguements
-	if( argc != 2 ) { 
-		cout << "Error: invalid command line" << endl;
-		return -1;
-	}
-
-	// Get input file
-	string theFile = "";
-	cin >> theFile;
-
-	ProcessManager prcsMngr = ProcessManager();
-	prcsMngr = LoadFile( theFile );
-
-	int breakpoint = 0;
-
-	return 0;
-		
-};
+//int main( int argc, char* argv[] ) {
+//	// Must be 2 command line arguements
+//	if( argc != 2 ) { 
+//		cout << "Error: invalid command line" << endl;
+//		return -1;
+//	}
+//
+//	// Get input file
+//	string theFile = "";
+//	cin >> theFile;
+//
+//	ProcessManager prcsMngr = ProcessManager();
+//	prcsMngr = LoadFile( theFile );
+//
+//	int breakpoint = 0;
+//
+//	return 0;
+//		
+//};
