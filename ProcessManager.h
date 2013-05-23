@@ -1,3 +1,12 @@
+/*
+ * File Name: ProcessManager.h
+ * Date:      May 16, 2013
+ * Author:    Milan Sobat
+ * Student #: 0469245
+ * Course:    INFO-5051
+ * Purpose:   A Process manager to contain all the Process classes.
+ */
+
 #ifndef __PROCESSMANAGER_H__
 #define __PROCESSMANAGER_H__
 
@@ -21,7 +30,7 @@ public:
 	}
 
 	size_t getVecSize() { return _vecProcesses.size(); }
-	std::vector<process_ptr> getProcesses() { return _vecProcesses; }
+	std::vector<process_ptr> getVector() { return _vecProcesses; }
 };
 
 #endif

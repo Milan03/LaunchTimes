@@ -77,11 +77,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="LaunchTimesMain.cpp" />
-    <ClCompile Include="ut_LaunchTimes.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Process.h" />
     <ClInclude Include="ProcessManager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
